@@ -1,0 +1,20 @@
+scenes.laziness = {
+  text: "You planned to work today. The tools are ready. Time is available. But comfort whispers that tomorrow will be better.",
+  choices: [
+    {
+      text: "Give in and rest without intention",
+      effect: { discipline: -10, clarity: -5 },
+      wisdom: "Comfort is kind, but it does not build."
+    },
+    {
+      text: "Force yourself aggressively",
+      effect: { discipline: +5, calm: -5 },
+      wisdom: "Force moves the body. Rhythm moves the life."
+    },
+    {
+      text: "Start small, without pressure",
+      effect: { discipline: +10, clarity: +5 },
+      wisdom: "Small beginnings disarm resistance."
+    }
+  ]
+};
